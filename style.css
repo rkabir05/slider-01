@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-image: url(images/sliderpic02.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+
+.slider-main {
+    width: 1400px;
+    height: auto;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.slider-1 {
+    width: 20%;
+    height: auto;
+}
+
+
+.slider-1 .bx-wrapper {
+    background: none;
+    border: none;
+    box-shadow: none;
+}
+
+ul.tikerfooter li a {
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+    font-weight: bold;
+}
+
+ul.tikerfooter li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+}
+
+.tikerfooter li {
+    position: relative;
+}
+
+.tikerfooter li:before {
+    position: absolute;
+}
+
+.tikerfooter li {
+    position: relative;
+}
+
+.tikerfooter li:before {
+    position: absolute;
+    content: '';
+    width: 10px;
+    height: 10px;
+}
+
+.tikerfooter {}
+
+.tikerfooter li {
+    position: relative;
+}
+
+.tikerfooter li:before {
+    position: absolute;
+    content: '';
+    width: 10px;
+    height: 10px;
+    background: red;
+    left: -20px;
+    right: -20px;
+    top: 8px;
+    border-radius: 50%;
+}
+
+.tikerbox {
+    position: absolute;
+    bottom: 0;
+}
+
+.tikerbox .bx-wrapper {
+    margin-bottom: 0;
+}

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>slider</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bxslider@4.2.17/dist/jquery.bxslider.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bxslider@4.2.17/dist/jquery.bxslider.min.js"></script>
+
+
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!--slider-main start-->
+    <div class="slider-main">
+
+        <!--slider-1 start-->
+        <div class="slider-1">
+            <div class="bxSlidera">
+                <div><img src="images/istockphoto-1394781347-612x612.jpg" title="Coffee 1" /></div>
+                <div><img src="images/images (1).jpg" title="Coffee 1" /></div>
+                <div><img src="images/nature-3082832_1280.jpg" title="Coffee 1" /></div>
+                <div><img src="images/pexels-pixabay-257360.jpg" title="Coffee 1" /></div>
+            </div>
+        </div>
+        <!--slider-1 end-->
+
+        <!--slider-1 start-->
+        <div class="slider-1">
+            <div class="bxSlidera">
+                <div><img src="images/nature-3082832_1280.jpg" title="Coffee 1" /></div>
+                <div><img src="images/pexels-pixabay-257360.jpg" title="Coffee 1" /></div>
+                <div><img src="images/road-1072821_640.jpg" title="Coffee 1" /></div>
+                <div><img src="images/shutterstock_1288634614.jpg" title="Coffee 1" /></div>
+            </div>
+        </div>
+        <!--slider-1 end-->
+
+        <!--slider-1 start-->
+        <div class="slider-1">
+            <div class="bxSlidera">
+                <div><img src="images/sliderpic01.jpeg" title="Coffee 1" /></div>
+                <div><img src="images/sliderpic02.jpg" title="Coffee 1" /></div>
+                <div><img src="images/sliderpic04.jpg" title="Coffee 1" /></div>
+                <div><img src="images/sliderpic05.jpg" title="Coffee 1" /></div>
+            </div>
+        </div>
+        <!--slider-1 end-->
+
+        <!--slider-1 start-->
+        <div class="slider-1">
+            <div class="bxSlidera">
+                <div><img src="images/sliderpic06.jpeg" title="Coffee 1" /></div>
+                <div><img src="images/sliderpic036.jpg" title="Coffee 1" /></div>
+                <div><img src="images/wooden-pathway-lush-green--322646384.webp" title="Coffee 1" /></div>
+                <div><img src="images/images (2).jpg" title="Coffee 1" /></div>
+            </div>
+        </div>
+        <!--slider-1 end-->
+
+
+    </div>
+    <!--slider-main start-->
+
+
+    <!--tikerbox start-->
+    <div class="tikerbox">
+        <!--tikertext start-->
+            <ul class="tikerfooter">
+                <li><a href="#">হাসনাত-সারজিসকে হত্যাচেষ্টার অভিযোগ, ঢাবিতে বিক্ষোভ</a></li>
+                <li><a href="#">হাসনাত-সারজিসের গাড়িবহরের গাড়িতে ট্রাকের ধাক্কা হাসিনা ভারতে বসে ষড়যন্ত্র করছে : টুকু</a></li>
+                <li><a href="#">এবার ৯০ ও ১৮০ দিন মেয়াদি বিল চালু করল কেন্দ্রীয় ব্যাংক</a></li>
+                <li><a href="#">ফ্যাসিবাদের দোসররা এখনো রাষ্ট্রযন্ত্রের রন্ধ্রে রন্ধ্রে ঘাপটি মেরে আছে : মাসুদ সাঈদী </a></li>
+                <li><a href="#">১৬টি পয়েন্ট তুলে ধরে দেশবাসীকে সজাগ থাকতে বললেন তারেক রহমান </a></li>
+            </ul>
+        <!--tikertext end-->
+    </div>
+    <!--tikerbox end-->
+
+
+          
+
+
+
+    <script>
+        $(function(){
+            $('.bxSlidera').bxSlider({
+            mode: 'fade',
+            captions: true,
+            auto: true
+            });
+        });
+
+
+       
+
+        $('.tikerfooter').bxSlider({
+        minSlides: 4,
+        maxSlides: 4,
+        slideWidth: 'auto',
+        slideMargin: 30,
+        ticker: true,
+        speed: 30000,
+        tickerHover: true,
+
+        });
+  
+
+    </script>
+    
+</body>
+</html>
